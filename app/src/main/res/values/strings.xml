@@ -3,4 +3,5 @@
     <string name="litres">Litres:</string>
     <string name="ok_button">ok</string>
     <string name="gallons">Gallons:</string>
+    <string name="help_button">help</string>
 </resources>

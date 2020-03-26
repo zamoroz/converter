@@ -56,4 +56,10 @@
             android:textSize="20sp" />
     </LinearLayout>
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help_button" />
+
 </LinearLayout>
