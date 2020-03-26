@@ -2,9 +2,16 @@ package com.example.lr1;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.EditText;
+import android.widget.TextView;
 
 
 public class MainActivity extends AppCompatActivity {
+
+    private EditText editText;
+    private TextView textView;
+    double liters;
+    double gallons;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
