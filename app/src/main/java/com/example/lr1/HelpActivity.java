@@ -13,5 +13,9 @@ public class HelpActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
+
+        Bundle arg = getIntent().getExtras();
+        String gallons = arg.get("gallons").toString();
+        String litres = arg.get("litres").toString();
     }
 }

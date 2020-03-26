@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void helpButtonClick(View v) {
         Intent intent = new Intent(MainActivity.this, HelpActivity.class);
+        intent.putExtra("litres", editText.getText());
+        intent.putExtra("gallons", textView.getText());
         startActivity(intent);
     }
 }
